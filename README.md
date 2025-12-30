@@ -20,7 +20,7 @@ This workflow follows the instructions as described at [Aseprite repo](https://g
 
 1. Every day check if there is a new Aseprite release on GitHub (by comparing against cached version)
 2. If newer version then create a draft Release where the build job can put the binaries.
-3. Start building
+3. Start building.
 4. Get Skia from cache, if not in cache then download it
 5. Use CMake and Ninja to compile
 6. Create zip of release and upload to draft Release from step 2
