@@ -11,7 +11,7 @@ The release can be found within the releases as a draft (only visible for repo o
 
         strategy:
             matrix:
-                os: [windows-latest, ubuntu-latest, macOS-latest]
+                os: [windows-latest, ubuntu-latest, macOS-latest].
 4. Save and commit.
 5. On every push to master and every day, the workflow will check for new Aseprite releases.
         
